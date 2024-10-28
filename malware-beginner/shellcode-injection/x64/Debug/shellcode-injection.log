@@ -1,0 +1,6 @@
+﻿  shellcode-injection.cpp
+C:\Users\main\Documents\malware-creation-and-analysis\process-injection\shellcode-injection\shellcode-injection.cpp(64,9): warning C4129: ' ': unrecognized character escape sequence
+C:\Users\main\Documents\malware-creation-and-analysis\process-injection\shellcode-injection\shellcode-injection.cpp(64,9): warning C4129: '-': unrecognized character escape sequence
+C:\Users\main\Documents\malware-creation-and-analysis\process-injection\shellcode-injection\shellcode-injection.cpp(92,9): warning C4129: ' ': unrecognized character escape sequence
+C:\Users\main\Documents\malware-creation-and-analysis\process-injection\shellcode-injection\shellcode-injection.cpp(92,9): warning C4129: '-': unrecognized character escape sequence
+  shellcode-injection.vcxproj -> C:\Users\main\Documents\malware-creation-and-analysis\process-injection\shellcode-injection\x64\Debug\shellcode-injection.exe

@@ -1,0 +1,2 @@
+C:\Users\main\Documents\malware-creation-and-analysis\process-injection\shellcode-injection\shellcode-injection\x64\Debug\shellcode-injection.exe
+C:\Users\main\Documents\malware-creation-and-analysis\process-injection\shellcode-injection\x64\Debug\shellcode-injection.exe
