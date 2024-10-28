@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>Inventory Tracker</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Inventory Tracker</h1>
+      <form id="productForm">
+        <div class="input-group">
+          <label for="name">Product Name:</label>
+          <input type="text" id="name" required />
+        </div>
+
+        <div class="input-group">
+          <label for="price">Product Price:</label>
+          <input type="number" id="price" required />
+        </div>
+
+        <div class="input-group">
+          <label for="profit">Product Profit:</label>
+          <input type="number" id="profit" required />
+        </div>
+
+        <div class="input-group">
+          <label for="sold">Sold:</label>
+          <input type="number" id="sold" required />
+        </div>
+
+        <div class="input-group">
+          <label for="inStock">In Stock:</label>
+          <input type="number" id="inStock" required />
+        </div>
+
+        <button type="submit">Add Product</button>
+      </form>
+
+      <h2>Products in Inventory</h2>
+      <div id="productList" class="product-list"></div>
+
+      <h2>Sold Products Analytics</h2>
+      <canvas
+        id="soldProductsChart"
+        class="small-chart"
+        width="400"
+        height="400"
+      ></canvas>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

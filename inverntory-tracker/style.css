@@ -1,0 +1,98 @@
+body {
+  background-color: #2e2e2e; /* Greyish-black background */
+  color: #ffffff; /* White text color */
+  font-family: "Roboto", sans-serif; /* Roboto font */
+}
+
+.container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+form {
+  margin-bottom: 20px;
+  display: flex; /* Use Flexbox for the form layout */
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
+  gap: 15px; /* Space between input groups */
+}
+
+.input-group {
+  flex: 1 1 calc(20% - 15px); /* Each input takes 20% width minus the gap */
+  min-width: 150px; /* Minimum width for input groups */
+}
+
+label {
+  margin-top: 10px; /* Add space above labels */
+  display: block; /* Make labels block elements for better spacing */
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 15px; /* Increased padding for input fields */
+  margin-top: 5px; /* Space between label and input field */
+  background-color: #3a3a3a; /* Input field background color */
+  color: #ffffff; /* Input text color */
+  border: 1px solid #555; /* Border color */
+  border-radius: 5px; /* Rounded corners */
+  box-sizing: border-box; /* Include padding and border in width */
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+  outline: none; /* Remove default outline */
+  border-color: #6a0dad; /* Border color on focus */
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Space between the cards */
+}
+
+.product-card {
+  background-color: #3a3a3a; /* Card background color */
+  border-radius: 8px;
+  padding: 15px;
+  margin: 10px;
+  flex: 1 1 calc(25% - 20px); /* 4 cards per row */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  position: relative; /* For absolute positioning of buttons */
+}
+
+button {
+  background-color: #6a0dad;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  width: 100%; /* Full width button */
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #9a4fff;
+}
+
+/* Specific styles for the delete button */
+.delete-button {
+  background-color: #ff4d4d; /* Red color */
+}
+
+.delete-button:hover {
+  background-color: #ff9999; /* Lighter red on hover */
+}
+
+/* Style for the small chart */
+.small-chart {
+  max-width: 300px; /* Set a maximum width for the chart */
+  margin: 0 auto; /* Center the chart */
+}
