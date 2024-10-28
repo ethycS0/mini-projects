@@ -2,6 +2,9 @@
 
 Welcome to the Happy Birthday Wishes website! This simple yet delightful web application is designed to celebrate birthdays with a beautifully animated card and a countdown timer to the special day.
 
+![](./assets/front-view.png)
+![](./assets/card-view.png)
+    
 ## Features
 
 - **Animated Birthday Card**: An engaging card that opens with a charming animation, perfect for delivering warm birthday wishes.
